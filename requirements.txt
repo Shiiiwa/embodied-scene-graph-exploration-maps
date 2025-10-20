@@ -1,0 +1,8 @@
+numpy~=2.2.4
+ai2thor~=5.0.0
+torch~=2.7.0
+torchvision~=0.22.0
+tqdm~=4.67.1
+torch-geometric~=2.6.1
+matplotlib~=3.10.3
+pillow~=11.2.1
