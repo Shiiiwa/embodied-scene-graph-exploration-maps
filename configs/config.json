@@ -1,0 +1,46 @@
+{
+  "navigation": {
+    "rgb_dim": 512,
+    "action_dim": 32,
+    "sg_dim": 512,
+    "policy_hidden": 512,
+    "use_transformer": false,
+    "rho": 0.03
+  },
+  "exploration": {
+    "active": true,
+    "map_dim": 64,
+    "map_version": "<your-exploration-map>",
+    "map_resolution_cells": 64,
+    "map_observation_channels": [
+        "local.explored",
+        "local.obstacle",
+        "local.agent_traj",
+        "local.frontier_mask",
+        "global.explored",
+        "global.obstacle",
+        "global.agent_traj",
+        "global.frontier_mask"
+    ],
+    "intrinsic": {
+        "active": false,
+        "mode": "cells",
+        "w_cell": 0.015,
+        "w_cov": 0.0,
+        "w_vw": 0.0,
+        "_comment": "Set active to true to add potential-based shaping from the exploration map."
+    }
+  },
+  "agent": {
+    "name": "a2c",
+    "visibility_threshold": 0.2,
+    "render": false,
+    "episodes": 100,
+    "alpha": 1e-4,
+    "gamma": 0.99,
+    "entropy_coef": 0.1,
+    "value_coef": 0.5,
+    "num_steps": 40,
+    "encoder_path": "data/model_weights/feature_encoder_15_512_32_512.pth"
+  }
+}

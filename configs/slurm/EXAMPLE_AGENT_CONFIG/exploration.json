@@ -1,0 +1,12 @@
+{
+    "active": true,
+    "map_dim": 256,
+    "map_version": "<your-map-type>",
+  "intrinsic": {
+        "active": true,
+        "mode": "cells",
+        "w_cell": 0.02,
+        "w_cov": 0.0,
+        "w_vw": 0.0
+    }
+  }
