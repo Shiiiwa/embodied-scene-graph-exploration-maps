@@ -167,12 +167,6 @@ src/                    # Python package with scripts, components, IL, and RL mo
 data/                   # Created on demand; holds datasets, weights, logs, and results
 tests/                  # Automated checks
 ```
-
----
-
-## Citation
-If you use this project in your research, please cite the corresponding publication (add your citation entry here).
-
 ---
 
 ## License
