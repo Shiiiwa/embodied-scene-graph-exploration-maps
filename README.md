@@ -39,7 +39,7 @@ All commands assume you run them from the project root (`/workspace/scene_graph_
 ## Setup
 ### Requirements
 - Python 3.10+
-- PyTorch (GPU strongly recommended)
+- PyTorch (GPU)
 - AI2-THOR and additional packages listed in `requirements.txt`
 
 ### Installation
